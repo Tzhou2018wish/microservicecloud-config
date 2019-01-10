@@ -1,3 +1,4 @@
+
 spring:
   profiles:
     active: dev
@@ -20,10 +21,10 @@ spring:
       max-total: 5
       max-wait-millis: 200
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatisÅäÖÃÎÄ¼şËùÔÚÂ·¾¶
-  type-aliases-package: com.atguigu.springcloud.entities    # ËùÓĞEntity±ğÃûÀàËùÔÚ°ü
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatisé…ç½®æ–‡ä»¶æ‰€åœ¨è·¯å¾„
+  type-aliases-package: com.atguigu.springcloud.entities    # æ‰€æœ‰Entityåˆ«åç±»æ‰€åœ¨åŒ…
   mapper-locations:
-  - classpath:mybatis/mapper/**/*.xml                       # mapperÓ³ÉäÎÄ¼ş
+  - classpath:mybatis/mapper/**/*.xml                       # mapperæ˜ å°„æ–‡ä»¶
 eureka:
   client:
     service-url:
@@ -55,10 +56,10 @@ spring:
       max-total: 5
       max-wait-millis: 200
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatisÅäÖÃÎÄ¼şËùÔÚÂ·¾¶
-  type-aliases-package: com.atguigu.springcloud.entities    # ËùÓĞEntity±ğÃûÀàËùÔÚ°ü
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatisé…ç½®æ–‡ä»¶æ‰€åœ¨è·¯å¾„
+  type-aliases-package: com.atguigu.springcloud.entities    # æ‰€æœ‰Entityåˆ«åç±»æ‰€åœ¨åŒ…
   mapper-locations:
-  - classpath:mybatis/mapper/**/*.xml                       # mapperÓ³ÉäÎÄ¼ş
+  - classpath:mybatis/mapper/**/*.xml                       # mapperæ˜ å°„æ–‡ä»¶
 eureka:
   client:
     service-url:

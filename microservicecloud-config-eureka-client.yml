@@ -1,9 +1,10 @@
+
 spring:
   profiles:
     active:dev
 ---
 server:
-  port: 7001 #注册中心占用7001端口,冒号后面必须要有空格 
+  port: 7001 #娉ㄥ唽涓績鍗犵敤7001绔彛,鍐掑彿鍚庨潰蹇呴』瑕佹湁绌烘牸 
 spring:
   profiles: dev
   application:
@@ -18,7 +19,7 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server:
-  port: 7001 #注册中心占用7001端口,冒号后面必须要有空格 
+  port: 7001 #娉ㄥ唽涓績鍗犵敤7001绔彛,鍐掑彿鍚庨潰蹇呴』瑕佹湁绌烘牸 
 spring:
   profiles: test
   application:
